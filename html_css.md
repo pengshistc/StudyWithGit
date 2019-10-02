@@ -289,8 +289,9 @@
          * 效果展示
          <a href="http://www.baidu.com" target="baidu">百度一下</a>
          <a href="http://www.sou.com" target="baidu">360搜索</a><br>
-         <iframe src="" width="50%" height="400px" name="baidu"></iframe>
-         <iframe src="" width="50%" height="400px" name="360sou"></iframe>
+
+         <iframe src="" width="48%" height="400px" name="baidu"></iframe>
+         <iframe src="" width="48%" height="400px" name="360sou"></iframe>
 
 
 
