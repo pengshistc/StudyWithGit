@@ -275,7 +275,7 @@
          ` <iframe src="http://www.baidu.com" width="50%" height="200px"> `
 
          * 效果展示
-         <iframe src="http://www.baidu.com" width="100%" height="200px">
+         ![单个页面](https://github.com/pengshistc/StudyWithGit/blob/master/imgs/iframe_1.png?raw=true)         
 
       2. 多页面
          * 代码展示
@@ -287,13 +287,21 @@
          ```
 
          * 效果展示
-         <a href="http://www.baidu.com" target="baidu">百度一下</a>
-         <a href="http://www.sou.com" target="baidu">360搜索</a><br>
+         ![多页面](https://github.com/pengshistc/StudyWithGit/blob/master/imgs/iframe_2.png?raw=true)
 
-         <iframe src="" width="48%" height="400px" name="baidu"></iframe>
-         <iframe src="" width="48%" height="400px" name="360sou"></iframe>
+   * **frameset 标签（frame集合）**  
 
+### 9. form 标签 & 表单域学习
+   * action
+   * method
+      * get
+      * post
+   * 表单数据提交的表单项**必须**有 name 属性，否则不会提交，提交的表单项数据为 **键值对**
+   * 单选框
+      * name 相同的单选框只能选择一个
+      * checked 默认选择一个
+      * value 提交的表单值
 
-
-
+### 10. form 标签 & 表单域学习 & 模拟百度 & 注册页（2）
+   * 
 
