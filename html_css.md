@@ -250,6 +250,7 @@
       <a href="#seventh">7. 表格标签</a><br>
       ```
       * 效果展示
+      
       <a href="#first">1. HTML 的概念 & 三大基石 & 标准文档结构</a><br>
       <a href="#second">2. head 标签</a><br>
       <a href="#third">3. body 标签（文本标签）</a><br>
