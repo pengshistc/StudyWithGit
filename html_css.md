@@ -46,6 +46,7 @@
       3. 网页跳转
          * 5 秒自动跳转百度（使用 refresh 报头，可省略“url=”）
          ` <meta http-equiv="refresh" content="5;url=http://www.baidu.com"/> ` 
+
 <a name="third"></a>
 
 ### 3. body 标签（文本标签）
@@ -250,14 +251,14 @@
       <a href="#seventh">7. 表格标签</a><br>
       ```
       * 效果展示
-      
-      <a href="#first">1. HTML 的概念 & 三大基石 & 标准文档结构</a><br>
-      <a href="#second">2. head 标签</a><br>
-      <a href="#third">3. body 标签（文本标签）</a><br>
-      <a href="#fourth">4. body 标签（列表标签）</a><br>
-      <a href="#fifth">5. 图片标签</a><br>
-      <a href="#sixth">6. 超链接标签</a><br>
-      <a href="#seventh">7. 表格标签</a><br>
+
+         <a href="#first">1. HTML 的概念 & 三大基石 & 标准文档结构</a><br>
+         <a href="#second">2. head 标签</a><br>
+         <a href="#third">3. body 标签（文本标签）</a><br>
+         <a href="#fourth">4. body 标签（列表标签）</a><br>
+         <a href="#fifth">5. 图片标签</a><br>
+         <a href="#sixth">6. 超链接标签</a><br>
+         <a href="#seventh">7. 表格标签</a><br>
 
 
 <a name="seventh"></a>
@@ -265,6 +266,31 @@
 ### 7. 表格标签
 
 
+
+### 8. 内嵌标签
+   * **iframe 标签**
+
+      1. 单个页面
+         * 代码展示
+         ` <iframe src="http://www.baidu.com" width="50%" height="200px"> `
+
+         * 效果展示
+         <iframe src="http://www.baidu.com" width="100%" height="200px">
+
+      2. 多页面
+         * 代码展示
+         ```
+         <a href="http://www.baidu.com" target="baidu">百度一下</a>
+         <a href="http://www.sou.com" target="360sou">360搜索</a><br>
+         <iframe src="" width="50%" height="400px" name="baidu"></iframe>
+         <iframe src="" width="50%" height="400px" name="360sou"></iframe>
+         ```
+
+         * 效果展示
+         <a href="http://www.baidu.com" target="baidu">百度一下</a>
+         <a href="http://www.sou.com" target="baidu">360搜索</a><br>
+         <iframe src="" width="50%" height="400px" name="baidu"></iframe>
+         <iframe src="" width="50%" height="400px" name="360sou"></iframe>
 
 
 
