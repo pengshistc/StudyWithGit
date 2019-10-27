@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">	
+		<title>计算器</title>
+		<style>
+			#showDiv{
+				width: 300px;
+				height: 420px;
+				border: solid 1px black;
+				border-radius: 10px;
+				text-align: center;
+				margin: auto;
+			}
+			input[type=text]{
+				width: 280px;
+				height: 50px;
+				margin-top: 10px;
+				font-size: 30px;
+			}
+			input[type=button]{
+				width: 60px;
+				height: 60px;
+				margin: 5px;
+				font-size: 30px;
+			}
+			#dengyu{
+				width: 280px;
+			}
+		</style>
+		
+		<script>
+			function show(btn){
+				var num = btn.value;
+				switch(num){
+					case "=":
+						document.getElementById("res").value = eval(document.getElementById("res").value);
+						break;
+					case "C":
+						document.getElementById("res").value="";
+			   			break;
+					default:
+						document.getElementById("res").value += num;
+						break;
+			  	}
+			}
+		
+		</script>
+	</head>
+
+<body>
+	<div id="showDiv">
+		<input type="text" id="res"><br>
+		<input type="button" value="1" onClick="show(this)">
+		<input type="button" value="2" onClick="show(this)">
+		<input type="button" value="3" onClick="show(this)">
+		<input type="button" value="+" onClick="show(this)"><br>
+		<input type="button" value="4" onClick="show(this)">
+		<input type="button" value="5" onClick="show(this)">
+		<input type="button" value="6" onClick="show(this)">
+		<input type="button" value="-" onClick="show(this)"><br>
+		<input type="button" value="7" onClick="show(this)">
+		<input type="button" value="8" onClick="show(this)">
+		<input type="button" value="9" onClick="show(this)">
+		<input type="button" value="*" onClick="show(this)"><br>
+		<input type="button" value="." onClick="show(this)">
+		<input type="button" value="0" onClick="show(this)">
+		<input type="button" value="C" onClick="show(this)">
+		<input type="button" value="/" onClick="show(this)"><br>
+		<input type="button" value="=" id="dengyu" onClick="show(this)">
+	</div>
+</body>
+	
+</html>
